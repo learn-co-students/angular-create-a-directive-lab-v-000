@@ -1,9 +1,13 @@
-function successMessage () {
+function SuccessMessage() {
   return {
-    template: '<div>Success - it worked!</div>'
-  };
+    template: [
+      '<div>',
+        'Success - it worked!',
+      '</div>'
+    ].join('')
+  }
 }
 
-angular 
+angular
   .module('app')
-  .directive('successMessage', 'successMessage')
+  .directive('successMessage', SuccessMessage);
