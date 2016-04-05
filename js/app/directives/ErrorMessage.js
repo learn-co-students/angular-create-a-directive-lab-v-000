@@ -6,4 +6,4 @@ function ErrorMessage (){
 
 angular 
   .module('app')
-  .directive('errorMessage', ErrorMessage)
+  .directive('errorMessage', ErrorMessage);
