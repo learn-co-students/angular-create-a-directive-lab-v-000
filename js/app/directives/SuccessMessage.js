@@ -2,8 +2,8 @@ function SuccessMessage() {
   return {
     template: "<div>Success - it worked!</div>"
   }
-}
+};
 
 angular
   .module('app')
-  .directive('SuccessMessage', SuccessMessage);
+  .directive('successMessage', SuccessMessage);
