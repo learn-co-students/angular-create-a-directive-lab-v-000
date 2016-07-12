@@ -6,4 +6,4 @@ function SuccessMessage() {
 
 angular
     .module('app')
-    .directive('SuccessMessage', SuccessMessage);
+    .directive('successMessage', SuccessMessage);
