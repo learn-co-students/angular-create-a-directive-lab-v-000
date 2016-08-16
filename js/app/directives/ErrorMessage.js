@@ -1,7 +1,11 @@
 function ErrorMessage(){
-  return {
-    template: '<div>Oh no - something went wrong!</div>'
-  };
+return {
+    template: [
+      '<div>',
+        'Oh no - something went wrong!',
+      '</div>'
+    ].join('')
+  }
 }
 
   angular

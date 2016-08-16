@@ -1,7 +1,11 @@
 function SuccessMessage(){
   return {
-    template: '<div>Success - it worked!</div>'
-  };
+    template: [
+      '<div>',
+        'Success - it worked!',
+      '</div>'
+    ].join('')
+  }
 }
 
   angular
