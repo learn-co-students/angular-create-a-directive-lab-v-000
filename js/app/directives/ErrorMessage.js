@@ -1,9 +1,13 @@
 function ErrorMessage() {
   return {
-    template:  '<div>Oh no - something went wrong!</div>'
-  };
+    template: [
+      '<div>',
+        'Oh no - something went wrong!',
+      '</div>'
+    ].join('')
+  }
 }
 
 angular
   .module('app')
-  .directive('ErrorMessage', ErrorMessage);
+  .directive('errorMessage', ErrorMessage);
